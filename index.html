@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>محمد و عائشة  | دعوة زفاف</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ ============ -->
+
+<div id="intro" class="intro" aria-hidden="true">
+  <div class="intro-stage">
+    <span class="intro-letter intro-letter--a">A</span>
+    <span class="intro-amp">&amp;</span>
+    <span class="intro-letter intro-letter--b">M</span>
+  </div>
+  <div class="intro-glow"></div>
+  <button id="skipIntro" class="skip-btn" type="button">تخطي</button>
+</div>
+
+<!-- ============ MAIN SITE ============ -->
+<div id="site" class="site">
+
+  <!-- ---------- HERO ---------- -->
+  <header class="hero">
+    <div class="hero-frame">
+      <div class="monogram" aria-hidden="true">
+        <svg viewBox="0 0 120 120" class="monogram-svg">
+          <circle cx="60" cy="60" r="56" fill="none" stroke="var(--gold)" stroke-width="1"/>
+          <circle cx="60" cy="60" r="49" fill="none" stroke="var(--gold)" stroke-width="0.5"/>
+          <text x="60" y="76" text-anchor="middle" class="monogram-text">A&amp;M</text>
+        </svg>
+      </div>
+      <p class="eyebrow">يتشرفان بدعوتكم</p>
+      <!--  اسم العروسة والعريس -->
+      <h1 class="hero-names"><span>عائشة</span><span class="amp">&amp;</span><span>محمد</span></h1>
+      <p class="hero-sub">يسعدنا حضوركم حفل زفافنا</p>
+      <div class="hero-date">
+        <!--  تاريخ  العرس -->
+        <span id="weddingDateDisplay">12 سبتمبر 2026</span>
+      </div>
+      <a href="#details" class="scroll-cue" aria-label="انزل لتفاصيل الدعوة">
+        <span></span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ---------- COUNTDOWN ---------- -->
+  <section class="section countdown-section">
+    <div class="divider"><span class="divider-monogram">A&amp;M</span></div>
+    <h2 class="section-title">الوقت المتبقي لفرحتنا</h2>
+    <div id="countdown" class="countdown" data-wedding-date="2026-09-12T18:00:00">
+      <div class="cd-block"><span id="cd-days" class="cd-num">--</span><span class="cd-label">يوم</span></div>
+      <div class="cd-block"><span id="cd-hours" class="cd-num">--</span><span class="cd-label">ساعة</span></div>
+      <div class="cd-block"><span id="cd-mins" class="cd-num">--</span><span class="cd-label">دقيقة</span></div>
+      <div class="cd-block"><span id="cd-secs" class="cd-num">--</span><span class="cd-label">ثانية</span></div>
+    </div>
+  </section>
+
+  <!-- ---------- OUR STORY ---------- -->
+  <section class="section story-section">
+    <h2 class="section-title">حكايتنا</h2>
+    <div class="timeline">
+<!-- ================================================================== -->
+      
+    <div class="tl-item">
+     <div class="tl-year">البداية</div>
+     <p class="tl-text">لكل حكاية بداية، وكانت بدايتنا لقاءً كتبه القدر قبل أن تعرفه الأيام. ومن تلك اللحظة، بدأت رحلة امتلأت بالمودة والطمأنينة، حتى أصبح الحلم أقرب إلى الواقع.</p>
+    </div>
+
+    <div class="tl-item">
+        <div class="tl-year">الوعد</div>
+        <p class="tl-text">وفي لحظةٍ اختارها القلب قبل العقل، تعاهدنا أن نمضي معًا، وأن تكون الخطوبة وعدًا يجمع روحين على دربٍ واحد، عنوانه الحب والوفاء.</p>
+    </div>
+
+    <div class="tl-item">
+        <div class="tl-year">إلى الأبد</div>
+        <p class="tl-text">واليوم، نخطو أولى خطوات العمر الجميل، ونفتح معًا صفحةً جديدة من حكايتنا، يسعدنا أن تكونوا جزءًا من تفاصيلها، وشهودًا على أجمل أيامها.</p>
+    </div>
+
+  </section>
+
+  <!-- ---------- DETAILS ---------- -->
+  <section id="details" class="section details-section">
+    <div class="divider"><span class="divider-monogram">A&amp;M</span></div>
+    <h2 class="section-title">تفاصيل الحفل</h2>
+    <div class="details-grid">
+      <div class="detail-card">
+        <div class="detail-icon">📅</div>
+        <h3>التاريخ والوقت</h3>
+        <!-- EDIT ME -->
+        <p>السبت، 12 سبتمبير 2026<br>الساعة ٦:٠٠ مساءً</p>
+      </div>
+      <div class="detail-card">
+        <div class="detail-icon">📍</div>
+        <h3>المكان</h3>
+        <!-- EDIT ME -->
+        <p> قاعات ايليا <br>فلسطين رام الله</p>
+      </div>
+      <div class="detail-card">
+        <div class="detail-icon">👗</div>
+        <h3>الزي المقترح</h3>
+        <p>إليغانت رسمي<br>بألوان دافئة</p>
+      </div>
+    </div>
+    <div class="map-wrap">
+      <!-- رابط موقع القاعة -->
+      <iframe
+       title="موقع قاعة الحفل"
+       src="https://www.google.com/maps?q=Elya+Venues+Al-Bireh+Palestine&output=embed"
+       width="100%"
+       height="450"
+       style="border:0;"
+       allowfullscreen=""
+       loading="lazy"
+       referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    </div>
+  </section>
+
+  <!-- ---------- GALLERY ---------- -->
+  <section class="section gallery-section">
+    <h2 class="section-title">لحظاتنا</h2>
+    <!--  بدّلي كل div.gallery-frame بصورة حقيقية <img src="..."> -->
+    <div class="gallery-grid">
+      <div class="gallery-frame"><span><img width=200px src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsBXWFrctlJ_vVKwoTR_okqRaJmbUK04cD8FgLgsHf7jLNdmVpN2IFlnpP&s=10"></span></div>
+      <div class="gallery-frame"><span><img width=170px src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStBU7TdDMQFRwlVACNNjnT_nnqHKe9rjC2eMYjI_Vzvw&s=10"></span></div>
+      <div class="gallery-frame"><span><img width=200px src="https://i.pinimg.com/originals/e5/14/2a/e5142a28d0e01003e5eb0dcea02f3321.jpg"></span></div>
+
+    </div>
+  </section>
+
+  <!-- ---------- RSVP ---------- -->
+  <!-- <section class="section rsvp-section">
+    <div class="divider"><span class="divider-monogram">A&amp;M</span></div>
+    <h2 class="section-title">تأكيد الحضور</h2>
+    <p class="section-sub">يسعدنا تأكيد حضوركم قبل تاريخ الحفل بأسبوع</p>
+    <form id="rsvpForm" class="glass-form">
+      <div class="form-row">
+        <label for="rsvpName">الاسم الكامل</label>
+        <input type="text" id="rsvpName" name="rsvpName" required placeholder="اكتب اسمك هنا">
+      </div>
+      <div class="form-row">
+        <label for="rsvpAttend">هل بتحضر/ي؟</label>
+        <select id="rsvpAttend" name="rsvpAttend" required>
+          <option value="">اختر إجابة</option>
+          <option value="نعم، بأحضر بكل سرور">نعم، بأحضر بكل سرور</option>
+          <option value="للأسف ما بقدر أحضر">للأسف ما بقدر أحضر</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="rsvpGuests">عدد المرافقين</label>
+        <input type="number" id="rsvpGuests" name="rsvpGuests" min="0" value="0">
+      </div>
+      <div class="form-row">
+        <label for="rsvpNote">ملاحظات (اختياري)</label>
+        <textarea id="rsvpNote" name="rsvpNote" rows="3" placeholder="أي شي حابب/ة تضيفه"></textarea>
+      </div>
+      <button type="submit" class="btn-gold">تأكيد الحضور</button>
+      <p id="rsvpConfirm" class="form-confirm" hidden>تم استلام ردكم، شكرًا إلكم! 💛</p>
+    </form>
+  </section> -->
+
+  <!-- ---------- WISHES WALL ---------- -->
+  <section class="section wishes-section">
+    <h2 class="section-title">اتركوا لنا تهنئة</h2>
+    <p class="section-sub">كل رسالة منكم بتفرحنا كتير</p>
+    <form id="wishForm" class="glass-form">
+      <div class="form-row">
+        <label for="wishName">اسمك</label>
+        <input type="text" id="wishName" name="wishName" required placeholder="اسمك">
+      </div>
+      <div class="form-row">
+        <label for="wishMsg">رسالتك</label>
+        <textarea id="wishMsg" name="wishMsg" rows="3" required placeholder="اكتب/ي تهنئتك هون"></textarea>
+      </div>
+      <button type="submit" class="btn-gold btn-gold--outline">إرسال التهنئة</button>
+    </form>
+    <div id="wishesList" class="wishes-list" aria-live="polite"></div>
+  </section>
+
+  <!-- ---------- CLOSING MESSAGE ---------- -->
+  <section class="section closing-section">
+    <div class="monogram monogram--small" aria-hidden="true">
+      <svg viewBox="0 0 120 120" class="monogram-svg">
+        <circle cx="60" cy="60" r="56" fill="none" stroke="var(--gold)" stroke-width="1"/>
+        <text x="60" y="76" text-anchor="middle" class="monogram-text">A&amp;M</text>
+      </svg>
+    </div>
+    <!--  رسالة شخصية من العروسين -->
+    <p class="closing-text">
+      "بنشكركم من كل قلبنا لكونكم جزء من هالمشوار.
+      وجودكم بيومنا رح يخليه أجمل.
+      بنتشرف فيكم، وبنتمنى نشوفكم قريب."
+    </p>
+    <p class="closing-signoff">بكل محبة، عائشة محمد 💛</p>
+  </section>
+
+  <footer class="site-footer">
+    <span class="footer-monogram">A&amp;M</span>
+    <p>صُنعت هذه الدعوة بمحبة</p>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
